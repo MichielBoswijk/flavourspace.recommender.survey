@@ -1,0 +1,205 @@
+/*
+ * Global styles
+ */
+
+body {
+    background-color: #fff;
+    background-image: url('http://flavourspace.com/wp-content/uploads/2015/06/kpi-bck.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Roboto Condensed',sans-serif;
+}
+h5 {
+    color: #4b1726;
+    font-size: 18px;
+    font-style: bold;
+    /*margin-bottom: 18px;*/
+    margin-top: 30px;
+}
+hr {
+    margin: 30px 0px;
+}
+label {
+    font-weight: 400;
+}
+
+
+
+/*
+ * Container
+ */
+
+.container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 70%;
+    background-color: #f9f9f9;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
+}
+
+/*
+ * Introduction
+ */
+
+.intro {
+    padding: 30px;
+}
+.intro-title {
+    margin-top: 5px;
+    color: #4b1726;
+    font-size: 30px;
+}
+.intro-content {
+    font-size: 15px;
+}
+#disclaimer {
+    margin-top: 20px;
+    margin-bottom: -20px;
+    width: 70%;
+    font-size: 1.4rem;
+}
+
+/*
+ * Questions
+ */
+
+.extra-info {
+    display: block;
+    margin-bottom: 15px;
+    color: #31708f;
+}
+
+
+.questions {
+    padding: 0px 30px;
+}
+
+.indent {
+  margin-left: 20px!important;
+  max-width: 500px;
+}
+
+/*
+ * Dietary restrictions
+ */
+
+#restrictions {
+  display: inline-block;
+}
+
+.checkbox {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+/*
+ * Liked recipes
+ */
+
+#new-recipe-button {
+    margin-left: 325px;
+    background-color: #31708f;
+    color: white;
+}
+
+.list-height {
+   height: 42px;
+}
+
+.recipe-ingredients{
+    max-height: 200px;
+    overflow:scroll;
+    -webkit-overflow-scrolling: touch;
+ }
+
+#selected-dislikes {
+    max-height: 275px;
+    overflow-y:scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+.media-object {
+  max-height: 200px;
+}
+
+.recipe {
+  padding: 20px;
+}
+
+.recipe-title {
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.selected-ingredient {
+  max-width: 300px;
+}
+
+.remove {
+  float: right;
+  display: inline-block;
+  max-width: 25px;
+  padding: 1px 3px;
+}
+
+#first-selection {
+  font-weight: 700;
+}
+
+/*.selection-title {
+  margin-top: 30px;
+}*/
+
+/*
+ * Search
+ */
+
+tr {
+    background-color: white;
+}
+
+
+/*
+.btn-green {
+    background-color: #1ab394;
+    color: #fff;
+    border-radius: 3px;
+}
+.btn-green:focus,
+.btn-green:hover {
+    background-color: #18a689;
+    color: #fff;
+}
+.panel-footer {
+    padding: 0 15px;
+    border: none;
+    text-align: right;
+    background-color: #fff;
+}
+.my-rating {
+    font-size: 12px;
+}*/
+
+
+/*
+ * Progress bar
+ */
+
+#question-progress {
+   /*background-color: #89c5e2;*/
+   background-color: #9aa03e;
+
+}
+
+#progress-row {
+  margin-top: 20px;
+}
+
+
+#finish-button {
+  float: right;
+  margin-bottom: 30px;
+}
